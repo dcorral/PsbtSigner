@@ -1,4 +1,4 @@
-# PSBT Signer
+# Xverse PSBT Signer
 
 A simple web app to connect to XVerse wallet and sign Partially Signed Bitcoin Transactions (PSBTs).
 
@@ -12,7 +12,7 @@ A simple web app to connect to XVerse wallet and sign Partially Signed Bitcoin T
 
 1. Clone this repository
 2. Install dependencies:
-   
+
 `npm install`
 
 ## Development
