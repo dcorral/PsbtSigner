@@ -13,6 +13,32 @@
             padding: 20px;
         }
 
+        .social-links {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .social-links p {
+            margin-bottom: 10px;
+            color: #555;
+            font-style: italic;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .social-links img {
+            width: 32px;
+            height: 32px;
+            transition: transform 0.2s;
+        }
+
+        .social-links img:hover {
+            transform: scale(1.1);
+        }
+
         button {
             background-color: #4CAF50;
             border: none;
@@ -72,6 +98,16 @@
 </head>
 
 <body>
+    <div class="social-links">
+        <p>Say hi! Let's build the future of Bitcoin together 🚀</p>
+        <a href="https://github.com/dcorral" target="_blank" rel="noopener noreferrer">
+            <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub">
+        </a>
+        <a href="https://x.com/dct_cpp" target="_blank" rel="noopener noreferrer">
+            <img src="https://about.x.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png"
+                alt="X">
+        </a>
+    </div>
     <h1>XVerse PSBT Signer</h1>
     <button id="connectButton">Connect</button>
     <button id="disconnectButton" class="hidden">Disconnect</button>
