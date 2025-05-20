@@ -1,0 +1,13 @@
+services:
+  psbt-signer:
+    build: .
+    container_name: psbt-signer
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    networks:
+      - psbt-network
+
+networks:
+  psbt-network:
+    driver: bridge
